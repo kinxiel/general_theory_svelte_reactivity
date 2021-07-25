@@ -29,8 +29,8 @@
 
   let inputArray = '';
 
-  $: numericArray = inputArray.split(',').map((item) => {
-    return parseInt(item, 10);
+  $: numericArray = inputArray.split(',').map((number) => {
+    return parseFloat(number, 10);
   });
 
   $: mean = getMean(numericArray);
