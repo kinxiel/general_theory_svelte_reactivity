@@ -6,9 +6,10 @@
   import NumberArray from './components/NumberArray.svelte';
   import NumberArrayReassignment from './components/NumberArrayReassignment.svelte';
   import NumberArraySpread from './components/NumberArraySpread.svelte';
+  import NumberArrayAsParameter from './components/NumberArrayAsParameter.svelte';
   import RelativeStandardDeviation from './components/RelativeStandardDeviation.svelte';
 </script>
 
 <main>
-  <NumberArraySpread />
+  <NumberArrayAsParameter />
 </main>
